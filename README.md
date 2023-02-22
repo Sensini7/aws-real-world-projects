@@ -352,8 +352,8 @@ Now run the above command to check added identities or Private keys
         
         - Expand `Advance details`
             - IAM instance profile: Select `S3-AmazonS3ReadOnlyAccess` IAM Role
-            - `NOTE:` Make sure to update the LoadBalancer DNS `BACKEND_LOAD_BALANCER_DNS` in https://github.com/sensini7/aws-real-world-projects/blob/four-tier-mailing-app-project/webserver-reverse-proxy-config/000-default.conf `before passing the below User Data`
-            - User data: provide the user data in https://github.com/sensini7/aws-real-world-projects/blob/four-tier-mailing-app-project/webserver-reverse-proxy-config/web-automation.sh
+            - `NOTE:` Make sure to update the LoadBalancer DNS `BACKEND_LOAD_BALANCER_DNS` in https://github.com/Sensini7/aws-real-world-projects/blob/four-tier-mailing-app-project/webserver-reverse-proxy-config/000-default.conf `before passing the below User Data`
+            - User data: provide the user data in https://github.com/Sensini7/aws-real-world-projects/blob/four-tier-mailing-app-project/webserver-reverse-proxy-config/web-automation.sh
             - `NOTE:` Update the `webserver-reverse-proxy-config/000-default.conf` on GitHub before passing User Data
 
             - Click on `Create launch template`
